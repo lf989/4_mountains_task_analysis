@@ -13,7 +13,7 @@ The count in the TARGET column is the number of correct answers
 Extra columns are added for the file name, and for the first three characters of the filename as this corresponds to participant number in my particular study
 The dataframe is then saved in the same directory as the original files as response_frequencies_summary.csv
 This file can be read and analysed by any standard stats software for further analysis
-.exe file provided to assist users who are not confident running a .py script
+.exe file provided to assist users who are not confident running a .py script - available from: https://drive.google.com/file/d/10wRoDlWvsXWODWUGUTgYl36i93dHow7q/view?usp=sharing
 
 count_correct_4_mountains_practice_check - to check general response trends by attempt number - to see if people are getting any worse or better as the test goes on
 This does something similar to the above program, only it summarises results by attmept number rather than by participant
