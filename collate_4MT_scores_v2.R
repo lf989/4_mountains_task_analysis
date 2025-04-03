@@ -4,7 +4,7 @@
 # Initialize workspace
 rm(list = ls())
 cat("\14")
-setwd("/Users/lfoth/Documents/R/spatial navigation/4MT Results SS interim")
+setwd("/my/path/where/my/score/files/are/kept")
 
 # Load necessary libraries
 library(tidyverse)
@@ -28,4 +28,4 @@ files <- list.files(pattern = "\\.txt$", full.names = TRUE)
 scores_for_all_df <- map_dfr(files, count_scores)
 
 # Output data to CSV
-write_csv(scores_for_all_df, '4MT_scores_all_participants_v2.csv')
+write_csv(scores_for_all_df, '4MT_scores_all_participants.csv')
