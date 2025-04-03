@@ -2,6 +2,7 @@
 This is a set of tools created to help analyse data from the 4 mountains task. 
 These tools were created independently of the orginal 4 mountains developer by me. I am not a professional software engineer, rather a hobbyist invovled in cognition research. Please use these files at your own risk and inspect the results critically for any unexpected output. Please let me know if there's a problem and I will attempt to resolve them - or contribute via GitHub
 
+For the python files:
 Please use config.txt to tell the program where the files are. This should be in the format: C:/Users/UserBob/Documents/python/four_mountains_score_files - or something. The config file must be in the same directory as the .py or .exe file
 
 count_correct_4_mountains.py - to convert 4 mountains individual score files into a usable dataframe
@@ -18,3 +19,6 @@ This file can be read and analysed by any standard stats software for further an
 count_correct_4_mountains_practice_check - to check general response trends by attempt number - to see if people are getting any worse or better as the test goes on
 This does something similar to the above program, only it summarises results by attmept number rather than by participant
 output in response_counts.csv in the same directory as the other files
+
+For the R files:
+put the path in the file under setwd("my/path")
